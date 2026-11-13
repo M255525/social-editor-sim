@@ -6,7 +6,7 @@
 
 - 純靜態：`index.html`（CSS）＋`data.js`（引擎，`window.SOC`，node 可 require）＋`app.js`（畫面）＋`watermark.js`（列印浮水印）＋`manual.html`＋PWA。
 - 本機預覽 port **8878**（`.claude/launch.json` 的 `social-editor-sim`）。visitor-badge `m255525.socialeditorsim`。
-- 尚未建 GitHub repo、未上線（`.github/workflows/pages.yml` 已備好）。
+- 部署：`.github/workflows/pages.yml`（push master 自動部署）：<https://m255525.github.io/social-editor-sim/>（2026-11-14 上線；repo 由使用者自己 `gh repo create`）。程式牆在 REPO_META。
 
 ## 玩法與引擎（data.js）
 - 籌備 6 關：品牌（4 個虛構品牌，各有 f0／KPI 粉絲 kf／KPI 導購營收 kr／年度預算 budget／淡旺季）→ 平台（fb／ig／threads／line）→ 語氣（3）→ 受眾（4）→ 內容支柱選 3（6 種）→ 法規小考 3 題（食品廣告不得宣稱醫療效能＝食安法 §28、圖片著作權、薦證廣告要揭露合作關係）。★ 合適度直接顯示在選項上，是刻意的教學設計。
