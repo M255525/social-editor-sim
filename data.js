@@ -36,7 +36,7 @@ var TOOLS = {
   'private-domain-rfm-studio': {n:'私域流量與 RFM 分析', ic:'👥', lic:true, d:'把粉絲與顧客分群，找出該回訪的人'},
   'IPA_Kano':                {n:'IPA × Kano 滿意度分析', ic:'📊', lic:true, d:'問卷分析出該先改善哪些地方'},
   'product-keyword-cloud':   {n:'關鍵字文字雲產生器', ic:'☁', lic:true, d:'從評論與貼文找出大家在講的關鍵字'},
-  'mentors-panel':           {n:'AI 人物顧問團', ic:'🧓', d:'找 12 位名人顧問一起想對策'},
+  'mentors-panel':           {n:'AI 思維顧問團', ic:'🧓', d:'找 12 種思考角色一起想對策'},
   'scam-message-checker':    {n:'詐騙訊息紅綠燈', ic:'🚦', d:'可疑訊息貼上來，看紅黃綠燈'}
 };
 function toolUrl(id){ return 'https://m255525.github.io/' + id + '/'; }
